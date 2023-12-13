@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(213, 250, 250);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic; 
+} 
+
+header{
+    background-image:linear-gradient(to bottom, rgb(40, 201, 201), rgb(3, 32, 32));
+    color: white;
+    padding-top: 40px;
+    min-height: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(14, 13, 13);
+}
+
+header>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    font-size: 2.5em;
+}
+
+nav{ 
+    margin: 0px;
+    padding: 0%;
+    background-color: rgb(3, 32, 32);
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration:none ;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    color: rgb(60, 104, 146);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 300px;
+    max-width:1100px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+    margin-bottom: 30px;
+}
+
+main  p{
+    font-size: 1em;
+}
+
+main img{
+    width:100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+article>h1{
+    color: rgb(60, 104, 146);
+}
+
+article>h2{
+    background-image: linear-gradient(to right, rgb(157, 240, 240),rgb(210, 241, 241), rgb(255, 255, 255));
+    color: rgb(60, 119, 161);
+}
+
+aside{
+    background-color:  rgb(171, 240, 240);
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.568);
+}
+
+aside > h3{
+    background-color: rgb(3, 32, 32);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside > ul{
+    columns: 2;
+}
+
+footer{
+    background-color: rgb(3, 32, 32);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer>p>a{
+    text-decoration: none;
+}
+
+footer>p>a:hover{
+    text-decoration:underline;
+    color: white;
+}
+
